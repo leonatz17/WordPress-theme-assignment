@@ -1,5 +1,5 @@
 /* 
-Theme name: Student Theme
+Theme name: Sip Spot Cafe
 Author: Leonife Nativdad
 Description: My first Student Theme
 Version: 1.0.0
@@ -12,6 +12,9 @@ header {
   align-items: center;
   flex-wrap: wrap;
   margin: 0%;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 
 }
 
