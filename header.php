@@ -7,7 +7,7 @@
      <?php wp_head() ?>
 </head>
 <body>
-    <header>
+    <header class="border-2 w-auto">
     <div id="logo">Sip Spot</div>
     <nav>
       <a href="#home">Home</a>
