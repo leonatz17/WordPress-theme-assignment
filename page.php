@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <section id="about">
-
+    <h1>This is My template page</h1>
         <div class="aboutUs">
             <h1 class="home-header"><?php the_title(); ?></h1>
             
