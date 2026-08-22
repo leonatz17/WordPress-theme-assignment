@@ -5,7 +5,7 @@ Description: A warm, cozy cafe theme perfect for coffee shops, bakeries, and sma
 
 Version: 1.0.0
 */
-html{
+/* html{
   margin: 0% !important;
 }
 header {
@@ -20,9 +20,9 @@ header {
   width: 100%;
   z-index: 1000;
 
-}
+/* } */
 
-#logo {
+/* #logo {
   color: white;
   font-size: 26px;
   font-weight: bold;
@@ -35,9 +35,9 @@ nav a {
    margin: 15px;
   font-size: 17px;
   font-family: Arial, sans-serif;
-}
+} */
 
-nav a:hover {
+/* nav a:hover {
   color: #f39c12;
   text-decoration: underline;
 }
@@ -57,9 +57,9 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 8px; */
 
-  p {
+  /* p {
     font-size: 3rem;
     color: #FDE7B3;
     font-family: 'Arial', sans-serif;
@@ -106,9 +106,9 @@ nav a:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     /* margin-top: 100%; */
-  }
+  } */
 
-#cafe {
+/* #cafe {
   width: 30rem;
   height: 30rem;
   border-radius: 20px;
@@ -153,9 +153,9 @@ nav a:hover {
   background: #fff9f2;
   border-radius: 12px;
   box-shadow: 0 3px 8px rgba(139, 90, 43, 0.1);
-}
+} */
 
-.contact-section h2 {
+/* .contact-section h2 {
   color: #8B5A2B;
   font-size: 2rem;
   margin-top: 0;
@@ -167,9 +167,9 @@ nav a:hover {
   font-size: 1.1rem;
   line-height: 1.8;
   margin: 8px 0;
-}
+} */
 
-.contactUs {
+/* .contactUs {
   background-color: #FDE7B3;
   height: 60vh;
   margin-top: 0%;
@@ -185,9 +185,9 @@ nav a:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     margin: 2rem 0;
   }
-}
+} */
 
-.services-container {
+/* .services-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   
@@ -195,16 +195,17 @@ nav a:hover {
   max-width: 1100px;
   width: 90%;
   margin: 3rem auto;
-}
+} */
 
 .service-card {
-  background: #fff9f2;
+  /* background: #fff9f2; */
 
   padding: 25px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(139, 90, 43, 0.15);
   text-align: center;
   transition: transform 0.3s ease;
+  margin-top: 10px;
 }
 
 .service-card:hover {

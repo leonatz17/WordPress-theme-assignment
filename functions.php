@@ -12,4 +12,15 @@
  }
 
  add_action('wp_enqueue_scripts', 'my_theme_assets');
+
+ function post_thumbnail(){
+   add_theme_support('post-thumbnails');
+
+   register_nav_menus([
+      'primary' => 'Primary Menu' , 
+      'footer' => 'Fooeter Menu'
+   ]);
+ }
+
+ add_action('after_setup_theme','post_thumbnail');
 ?>
