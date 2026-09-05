@@ -1,6 +1,10 @@
 <?php get_header(); ?>
 
-<section id="about">
+<?php if (have_posts()):
+    while (have_posts()):
+        the_post(); ?>
+        
+        <section id="about">
     <h1>This is My template page</h1>
         <div class="aboutUs">
             <h1 class="home-header"><?php the_title(); ?></h1>
@@ -16,5 +20,14 @@
             </div>
         </div>
     </section>
+   
+
+<?php
+   
+    endwhile;
+endif;
+?>
+
+
 
 <?php get_footer(); ?>

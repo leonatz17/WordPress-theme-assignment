@@ -18,9 +18,25 @@
 
    register_nav_menus([
       'primary' => 'Primary Menu' , 
-      'footer' => 'Fooeter Menu'
+      'footer' => 'Footer Menu'
    ]);
  }
 
  add_action('after_setup_theme','post_thumbnail');
+
+  function my_theme_widgets(){
+    register_sidebar([
+      'name' => 'Main Sidebar',
+      'id' => 'main-sidebar',
+      'description' => 'Add widgets here!',
+      'before_widget' => '<div class="px-6 py-5 border-b border-amber-100">',
+      'after_widget' => '</div>',
+      'before_title' => '<h1 class="text-xl font-bold text-red-800">',
+      'after_title' => '</h1>'
+
+    ]);
+  }
+
+  add_action('widgets_init', 'my_theme_widgets');
+
 ?>
